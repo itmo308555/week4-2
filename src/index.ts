@@ -66,7 +66,7 @@ function onRequest(
             })
             .end(
               JSON.stringify({
-                message: 'mihailstar',
+                message: 'itmo308555',
                 'x-result': request.headers['x-test'] ?? '',
                 'x-body': body,
               })
